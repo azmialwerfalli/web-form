@@ -1,12 +1,13 @@
 <template>
-  <h1>Web form</h1>
+  <!-- <h1>Web form</h1> -->
+  <SignupForm />
 </template>
 
 <script>
-
+import SignupForm from './components/SignupForm.vue'
 export default {
   name: 'App',
-  components: {
+  components: {SignupForm
   }
 }
 </script>
